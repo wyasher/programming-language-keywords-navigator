@@ -6,41 +6,41 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 
 [base](#base) [break](#break) 
 
-[case](#case) [catch](#catch) [class](#class) [component](#component) [connect](#connect) [const](#const) [continue](#continue) [covariant](#covariant)
+[case](#case) [catch](#catch) [class](#class) [component](#component) [connect](#connect) [const](#const) [continue](#continue) [crate](#crate) [covariant](#covariant)
 
-[decode](#decode) [default](#default) [deferred](#deferred) [do](#do) [dynamic](#dynamic)
+[decode](#decode) [default](#default) [deferred](#deferred) [do](#do) [dyn](#dyn) [dynamic](#dynamic)
 
-[else](#else) [encode](#encode) [enum](#enum) [export](#export) [exposing](#exposing) [extends](#extends) [extension](#extension) [external](#external) 
+[else](#else) [encode](#encode) [enum](#enum) [export](#export) [exposing](#exposing) [extends](#extends) [extension](#extension) [extern](#extern) [external](#external)  
 
-[factory](#factory) [false](#false) [final](#final) [finally](#finally) [for](#for) [fun](#fun)
+[factory](#factory) [false](#false) [final](#final) [finally](#finally) [fn](#fn) [for](#for) [fun](#fun)
 
 [get](#get) [global](#global)
 
 [hide](#hide)
 
-[if](#if) [implements](#implements) [import](#import) [in](#in) [interface](#interface) [is](#is)
+[if](#if) [impl](#impl) [implements](#implements) [import](#import) [in](#in) [interface](#interface) [is](#is)
 
-[late](#late) [let](#let) [library](#library)
+[late](#late) [let](#let) [library](#library) [loop](#loop)
 
-[mixin](#mixin) [module](#module)
+[match](#match) [mixin](#mixin) [mod](#mod) [module](#module) [move](#move) [mut](#mut)
 
 [new](#new) [next](#next) [null](#null)
 
 [of](#of) [on](#on) [operator](#operator) [or](#or)
 
-[part](#part) [property](#property)
+[part](#part) [property](#property) [pub](#pub)
 
-[record](#record) [required](#required) [rethrow](#rethrow) [return](#return) [routes](#routes)
+[record](#record) [ref](#ref) [required](#required) [rethrow](#rethrow) [return](#return) [routes](#routes)
 
-[sealed](#sealed) [set](#set) [show](#show) [state](#state) [static](#static) [store](#store) [style](#style) [suite](#suite) [super](#super) [switch](#switch) [sync](#sync)
+[sealed](#sealed) [self](#self) [Self](#Self) [set](#set) [show](#show) [state](#state) [static](#static) [store](#store) [struct](#struct) [style](#style) [suite](#suite) [super](#super) [switch](#switch) [sync](#sync)
 
-[test](#test) [this](#this) [throw](#throw) [true](#true) [try](#try) [typedef](#typedef)
+[test](#test) [this](#this) [throw](#throw) [trait](#trait) [true](#true) [try](#try) [type](#type) [typedef](#typedef)
 
-[use](#use) [using](#using)
+[union](#union) [unsafe](#unsafe) [use](#use) [using](#using)
 
 [var](#var) [void](#void)
 
-[when](#when) [while](#while) [with](#with)
+[when](#when) [where](#where) [while](#while) [with](#with)
 
 [yield](#yield)
 
@@ -48,10 +48,10 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### as
-[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### async
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Rust](https://www.rust-lang.org)
 
 ### assert
 [Dart](https://dart.dev)
@@ -63,7 +63,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### break
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Rust](https://www.rust-lang.org)
 
 ### case
 [Dart](https://dart.dev) [Mint](https://mint-lang.com)
@@ -81,10 +81,13 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Mint](https://mint-lang.com)
 
 ### const
-[Mint](https://mint-lang.com) [Dart](https://dart.dev) 
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### continue
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Rust](https://www.rust-lang.org)
+
+### crate
+[Rust](https://www.rust-lang.org)
 
 ### covariant
 [Dart](https://dart.dev)
@@ -101,17 +104,20 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### do
 [Dart](https://dart.dev)
 
+### dyn
+[Rust](https://www.rust-lang.org)
+
 ### dynamic
 [Dart](https://dart.dev)
 
 ### else
-[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### encode
 [Mint](https://mint-lang.com)
 
 ### enum
-[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### export
 [Dart](https://dart.dev)
@@ -125,6 +131,9 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### extension
 [Dart](https://dart.dev)
 
+### extern
+[Rust](https://www.rust-lang.org)
+
 ### external
 [Dart](https://dart.dev)
 
@@ -132,7 +141,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### false
-[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### final
 [Dart](https://dart.dev)
@@ -140,8 +149,11 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### finally
 [Dart](https://dart.dev)
 
+### fn
+[Rust](https://www.rust-lang.org)
+
 ### for
-[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### fun
 [Mint](https://mint-lang.com)
@@ -156,7 +168,10 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### if
-[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
+
+### impl
+[Rust](https://www.rust-lang.org)
 
 ### implements
 [Dart](https://dart.dev)
@@ -165,7 +180,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### in
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Rust](https://www.rust-lang.org)
 
 ### interface
 [Dart](https://dart.dev)
@@ -177,16 +192,31 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### let
-[Mint](https://mint-lang.com)
+[Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### library
 [Dart](https://dart.dev)
 
+### loop
+[Rust](https://www.rust-lang.org)
+
+### match
+[Rust](https://www.rust-lang.org)
+
 ### mixin
 [Dart](https://dart.dev)
 
+### mod
+[Rust](https://www.rust-lang.org)
+
 ### module
 [Mint](https://mint-lang.com)
+
+### move
+[Rust](https://www.rust-lang.org)
+
+### mut
+[Rust](https://www.rust-lang.org)
 
 ### new
 [Dart](https://dart.dev)
@@ -215,8 +245,14 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### property
 [Mint](https://mint-lang.com)
 
+### pub
+[Rust](https://www.rust-lang.org)
+
 ### record
 [Mint](https://mint-lang.com)
+
+### ref
+[Rust](https://www.rust-lang.org)
 
 ### required
 [Dart](https://dart.dev)
@@ -225,13 +261,19 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### return
-[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### routes
 [Mint](https://mint-lang.com)
 
 ### sealed
 [Dart](https://dart.dev)
+
+### self
+[Rust](https://www.rust-lang.org)
+
+### Self 
+[Rust](https://www.rust-lang.org)
 
 ### set
 [Dart](https://dart.dev)
@@ -243,10 +285,13 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Mint](https://mint-lang.com)
 
 ### static
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Rust](https://www.rust-lang.org)
 
 ### store
 [Mint](https://mint-lang.com)
+
+### struct
+[Rust](https://www.rust-lang.org)
 
 ### style
 [Mint](https://mint-lang.com)
@@ -255,7 +300,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Mint](https://mint-lang.com)
 
 ### super
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Rust](https://www.rust-lang.org)
 
 ### switch
 [Dart](https://dart.dev)
@@ -272,17 +317,29 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### throw
 [Dart](https://dart.dev)
 
+### trait
+[Rust](https://www.rust-lang.org)
+
 ### true
-[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### try
 [Dart](https://dart.dev)
 
+### type
+[Rust](https://www.rust-lang.org)
+
 ### typedef
 [Dart](https://dart.dev)
 
+### union
+[Rust](https://www.rust-lang.org)
+
+### unsafe
+[Rust](https://www.rust-lang.org)
+
 ### use
-[Mint](https://mint-lang.com)
+[Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
 
 ### using
 [Mint](https://mint-lang.com)
@@ -296,8 +353,11 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### when
 [Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
+### where
+[Rust](https://www.rust-lang.org)
+
 ### while
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Rust](https://www.rust-lang.org)
 
 ### with
 [Dart](https://dart.dev)
