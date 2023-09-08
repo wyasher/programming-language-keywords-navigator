@@ -6,35 +6,37 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 
 [base](#base) [break](#break) 
 
-[case](#case) [catch](#catch) [class](#class) [const](#const) [continue](#continue) [covariant](#covariant)
+[case](#case) [catch](#catch) [class](#class) [component](#component) [connect](#connect) [const](#const) [continue](#continue) [covariant](#covariant)
 
-[default](#default) [deferred](#deferred) [do](#do) [dynamic](#dynamic)
+[decode](#decode) [default](#default) [deferred](#deferred) [do](#do) [dynamic](#dynamic)
 
-[else](#else) [enum](#enum) [export](#export) [extends](#extends) [extension](#extension) [external](#external) 
+[else](#else) [encode](#encode) [enum](#enum) [export](#export) [exposing](#exposing) [extends](#extends) [extension](#extension) [external](#external) 
 
-[factory](#factory) [false](#false) [final](#final) [finally](#finally) [for](#for) 
+[factory](#factory) [false](#false) [final](#final) [finally](#finally) [for](#for) [fun](#fun)
 
-[get](#get) 
+[get](#get) [global](#global)
 
 [hide](#hide)
 
 [if](#if) [implements](#implements) [import](#import) [in](#in) [interface](#interface) [is](#is)
 
-[late](#late) [library](#library)
+[late](#late) [let](#let) [library](#library)
 
-[mixin](#mixin)
+[mixin](#mixin) [module](#module)
 
-[new](#new) [null](#null)
+[new](#new) [next](#next) [null](#null)
 
-[on](#on) [operator](#operator)
+[of](#of) [on](#on) [operator](#operator) [or](#or)
 
-[part](#part)
+[part](#part) [property](#property)
 
-[required](#required) [rethrow](#rethrow) [return](#return)
+[record](#record) [required](#required) [rethrow](#rethrow) [return](#return) [routes](#routes)
 
-[sealed](#sealed) [set](#set) [show](#show) [static](#static) [super](#super) [switch](#switch) [sync](#sync)
+[sealed](#sealed) [set](#set) [show](#show) [state](#state) [static](#static) [store](#store) [style](#style) [super](#super) [switch](#switch) [sync](#sync)
 
 [this](#this) [throw](#throw) [true](#true) [try](#try) [typedef](#typedef)
+
+[use](#use) [using](#using)
 
 [var](#var) [void](#void)
 
@@ -46,7 +48,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### as
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
 ### async
 [Dart](https://dart.dev)
@@ -55,7 +57,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### await
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
 ### base
 [Dart](https://dart.dev)
@@ -64,7 +66,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### case
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
 ### catch
 [Dart](https://dart.dev)
@@ -72,14 +74,23 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### class
 [Dart](https://dart.dev)
 
+### component
+[Mint](https://mint-lang.com)
+
+### connect
+[Mint](https://mint-lang.com)
+
 ### const
-[Dart](https://dart.dev)
+[Mint](https://mint-lang.com) [Dart](https://dart.dev) 
 
 ### continue
 [Dart](https://dart.dev)
 
 ### covariant
 [Dart](https://dart.dev)
+
+### decode
+[Mint](https://mint-lang.com)
 
 ### default
 [Dart](https://dart.dev)
@@ -94,13 +105,19 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### else
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+
+### encode
+[Mint](https://mint-lang.com)
 
 ### enum
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
 ### export
 [Dart](https://dart.dev)
+
+### exposing
+[Mint](https://mint-lang.com)
 
 ### extends
 [Dart](https://dart.dev)
@@ -115,7 +132,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### false
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
 ### final
 [Dart](https://dart.dev)
@@ -124,16 +141,22 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### for
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+
+### fun
+[Mint](https://mint-lang.com)
 
 ### get
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+
+### global
+[Mint](https://mint-lang.com)
 
 ### hide
 [Dart](https://dart.dev)
 
 ### if
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
 ### implements
 [Dart](https://dart.dev)
@@ -153,17 +176,29 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### late
 [Dart](https://dart.dev)
 
+### let
+[Mint](https://mint-lang.com)
+
 ### library
 [Dart](https://dart.dev)
 
 ### mixin
 [Dart](https://dart.dev)
 
+### module
+[Mint](https://mint-lang.com)
+
 ### new
 [Dart](https://dart.dev)
 
+### next
+[Mint](https://mint-lang.com)
+
 ### null
 [Dart](https://dart.dev)
+
+### of
+[Mint](https://mint-lang.com)
 
 ### on
 [Dart](https://dart.dev)
@@ -171,8 +206,17 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### operator
 [Dart](https://dart.dev)
 
+### or
+[Mint](https://mint-lang.com)
+
 ### part
 [Dart](https://dart.dev)
+
+### property
+[Mint](https://mint-lang.com)
+
+### record
+[Mint](https://mint-lang.com)
 
 ### required
 [Dart](https://dart.dev)
@@ -181,7 +225,10 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### return
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
+
+### routes
+[Mint](https://mint-lang.com)
 
 ### sealed
 [Dart](https://dart.dev)
@@ -192,8 +239,17 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### show
 [Dart](https://dart.dev)
 
+### state
+[Mint](https://mint-lang.com)
+
 ### static
 [Dart](https://dart.dev)
+
+### store
+[Mint](https://mint-lang.com)
+
+### style
+[Mint](https://mint-lang.com)
 
 ### super
 [Dart](https://dart.dev)
@@ -211,14 +267,19 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### true
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
 ### try
 [Dart](https://dart.dev)
 
-
 ### typedef
 [Dart](https://dart.dev)
+
+### use
+[Mint](https://mint-lang.com)
+
+### using
+[Mint](https://mint-lang.com)
 
 ### var
 [Dart](https://dart.dev)
@@ -227,7 +288,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### when
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [Mint](https://mint-lang.com)
 
 ### while
 [Dart](https://dart.dev)
