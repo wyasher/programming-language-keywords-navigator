@@ -4,13 +4,13 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ## Keywords
 [abstract](#abstract) [add](#add) [after](#after) [and](#and) [alias](#alias) [andalso](#andalso) [args](#args) [as](#as) [ascending](#ascending) [async](#async)  [assert](#assert) [await](#await) 
 
-[band](#band) [base](#base) [begin](#begin) [bnot](#bnot) [bool](#bool) [bor](#bor) [break](#break) [bsl](#bsl) [bsr](#bsr) [bxor](#bxor) [by](#by) [byte](#byte)
+[band](#band) [base](#base) [begin](#begin) [BEGIN](#BEGIN) [bnot](#bnot) [bool](#bool) [bor](#bor) [break](#break) [bsl](#bsl) [bsr](#bsr) [bxor](#bxor) [by](#by) [byte](#byte)
 
 [case](#case) [catch](#catch) [chan](#chan) [char](#char) [checked](#checked) [class](#class) [component](#component) [cond](#cond) [connect](#connect) [const](#const) [continue](#continue) [crate](#crate) [covariant](#covariant)
 
-[decimal](#decimal) [decode](#decode) [def](#def) [default](#default) [defer](#defer) [deferred](#deferred) [del](#del) [delegate](#delegate) [descending](#descending) [div](#div) [do](#do) [double](#double) [dyn](#dyn) [dynamic](#dynamic)
+[decimal](#decimal) [decode](#decode) [def](#def) [defined?](#defined?) [default](#default) [defer](#defer) [deferred](#deferred) [del](#del) [delegate](#delegate) [descending](#descending) [div](#div) [do](#do) [double](#double) [dyn](#dyn) [dynamic](#dynamic)
 
-[elif](#elif) [else](#else) [end](#end) [encode](#encode) [enum](#enum) [equals](#equals) [event](#event) [expect](#expect) [explicit](#explicit) [export](#export) [exposing](#exposing) [extends](#extends) [extension](#extension) [extern](#extern) [external](#external)  
+[elif](#elif) [else](#else) [elsif](#elsif) [end](#end) [END](#END) [encode](#encode) [ensure](#ensure) [enum](#enum) [equals](#equals) [event](#event) [expect](#expect) [explicit](#explicit) [export](#export) [exposing](#exposing) [extends](#extends) [extension](#extension) [extern](#extern) [external](#external)  
 
 [factory](#factory) [fallthrough](#fallthrough) [false](#false) [False](#False) [file](#file) [final](#final) [finally](#finally) [fixed](#fixed) [float](#float) [fn](#fn) [for](#for) [foreach](#foreach) [from](#from) [fun](#fun) [func](#func)
 
@@ -26,19 +26,19 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 
 [map](#map) [managed](#managed) [match](#match) [mixin](#mixin) [mod](#mod) [module](#module) [move](#move) [mut](#mut)
 
-[nameof](#nameof) [namespace](#namespace) [new](#new) [next](#next) [nint](#nint) [None](#None) [nonlocal](#nonlocal) [not](#not) [notnull](#notnull) [nuint](#nuint) [null](#null)
+[nameof](#nameof) [namespace](#namespace) [new](#new) [next](#next) [nil](#nil) [nint](#nint) [None](#None) [nonlocal](#nonlocal) [not](#not) [notnull](#notnull) [nuint](#nuint) [null](#null)
 
 [object](#object) [of](#of) [on](#on) [operator](#operator) [or](#or) [orderby](#orderby) [orelse](#orelse) [out](#out) [override](#override)
 
 [package](#package) [params](#params) [part](#part) [partial](#partial) [pass](#pass) [private](#private) [property](#property) [protected](#protected) [pub](#pub) [public](#public)
  
-[raise](#raise) [range](#range) [readonly](#readonly) [receive](#receive) [record](#record) [ref](#ref) [rem](#rem) [remove](#remove) [required](#required) [rethrow](#rethrow) [return](#return) [routes](#routes)
+[raise](#raise) [range](#range) [readonly](#readonly) [receive](#receive) [record](#record) [redo](#redo) [ref](#ref) [rem](#rem) [remove](#remove) [required](#required) [rescue](#rescue) [rethrow](#rethrow) [retry](#retry) [return](#return) [routes](#routes)
 
 [sbyte](#sbyte) [scoped](#scoped) [sealed](#sealed) [select](#select) [self](#self) [Self](#Self) [set](#set) [short](#short) [show](#show) [sizeof](#sizeof) [stackalloc](#stackalloc) [state](#state) [static](#static) [store](#store) [string](#string) [struct](#struct) [style](#style) [suite](#suite) [super](#super) [switch](#switch) [sync](#sync)
 
-[test](#test) [this](#this) [throw](#throw) [trait](#trait) [true](#true) [True](#True) [try](#try) [type](#type) [typedef](#typedef) [typeof](#typeof)
+[test](#test) [then](#then) [this](#this) [throw](#throw) [trait](#trait) [true](#true) [True](#True) [try](#try) [type](#type) [typedef](#typedef) [typeof](#typeof)
 
-[uint](#uint) [ulong](#ulong) [union](#union) [unchecked](#unchecked) [unmanaged](#unmanaged) [unsafe](#unsafe) [use](#use) [ushort](#ushort) [using](#using) 
+[uint](#uint) [ulong](#ulong) [unit](#unit) [union](#union) [unchecked](#unchecked) [undef](#undef) [unless](#unless) [unmanaged](#unmanaged) [unsafe](#unsafe) [use](#use) [ushort](#ushort) [using](#using) 
 
 [value](#value) [var](#var) [virtual](#virtual) [volatile](#volatile) [void](#void)
 
@@ -47,6 +47,8 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [xor](#xor)
 
 [yield](#yield)
+
+[\_\_ENCODING__](#__ENCODING__) [\_\_FILE__](#__FILE__) [\_\_LINE__](#__LINE__)
 
 ### abstract
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
@@ -57,14 +59,14 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### after
 [Erlang](https://www.erlang.org)
 
-### and
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Erlang](https://www.erlang.org) [Python](https://www.python.org)
-
 ### alias
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Ruby](https://www.ruby-lang.org)
+
+### and
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Erlang](https://www.erlang.org) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org)
 
 ### andalso
-[Erlang](https://www.erlang.org)
+[Erlang](https://www.erlang.org) 
 
 ### args
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -91,7 +93,10 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
 
 ### begin
-[Erlang](https://www.erlang.org)
+[Erlang](https://www.erlang.org) [Ruby](https://www.ruby-lang.org)
+
+### BEGIN
+[Ruby](https://www.ruby-lang.org)
 
 ### bnot
 [Erlang](https://www.erlang.org)
@@ -103,7 +108,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Erlang](https://www.erlang.org)
 
 ### break
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Python](https://www.python.org) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### bsl
 [Erlang](https://www.erlang.org)
@@ -121,7 +126,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 
 ### case
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [Go](https://go.dev) [Mint](https://mint-lang.com)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [Go](https://go.dev) [Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org)
 
 ### catch
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org)
@@ -136,7 +141,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 
 ### class
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org)
 
 ### component
 [Mint](https://mint-lang.com)
@@ -166,7 +171,10 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Mint](https://mint-lang.com)
 
 ### def
-[Python](https://www.python.org)
+[Python](https://www.python.org) [Ruby](https://www.ruby-lang.org)
+
+### defined?
+[Ruby](https://www.ruby-lang.org)
 
 ### default
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev)
@@ -190,7 +198,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Erlang](https://www.erlang.org)
 
 ### do
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Ruby](https://www.ruby-lang.org)
 
 ### double
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -205,13 +213,22 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Python](https://www.python.org)
 
 ### else
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
+
+### elsif
+[Ruby](https://www.ruby-lang.org)
 
 ### end
-[Erlang](https://www.erlang.org)
+[Erlang](https://www.erlang.org) [Ruby](https://www.ruby-lang.org)
+
+### END
+[Ruby](https://www.ruby-lang.org)
 
 ### encode
 [Mint](https://mint-lang.com)
+
+### ensure
+[Ruby](https://www.ruby-lang.org)
 
 ### enum
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
@@ -253,7 +270,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Go](https://go.dev)
 
 ### false
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### False
 [Python](https://www.python.org)
@@ -277,7 +294,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Rust](https://www.rust-lang.org)
 
 ### for
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### foreach
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -310,7 +327,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### if
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [Go](https://go.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [Go](https://go.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### impl
 [Rust](https://www.rust-lang.org)
@@ -325,7 +342,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [Go](https://go.dev) [Python](https://www.python.org)
 
 ### in
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### init
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -385,7 +402,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Rust](https://www.rust-lang.org)
 
 ### module
-[Erlang](https://www.erlang.org) [Mint](https://mint-lang.com)
+[Erlang](https://www.erlang.org) [Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org)
 
 ### move
 [Rust](https://www.rust-lang.org)
@@ -403,7 +420,10 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
 
 ### next
-[Mint](https://mint-lang.com)
+[Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org)
+
+### nil
+[Ruby](https://www.ruby-lang.org)
 
 ### nint
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -415,7 +435,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Python](https://www.python.org)
 
 ### not
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Erlang](https://www.erlang.org) [Python](https://www.python.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Erlang](https://www.erlang.org) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org)
 
 ### notnull
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -439,7 +459,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
 
 ### or
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Mint](https://mint-lang.com) [Python](https://www.python.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org)
 
 ### orderby
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -498,6 +518,9 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### record
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Erlang](https://www.erlang.org) [Mint](https://mint-lang.com)
 
+### redo
+[Ruby](https://www.ruby-lang.org)
+
 ### ref
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Rust](https://www.rust-lang.org)
 
@@ -510,11 +533,17 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### required
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
 
+### rescue
+[Ruby](https://www.ruby-lang.org)
+
 ### rethrow
 [Dart](https://dart.dev)
 
+### retry
+[Ruby](https://www.ruby-lang.org)
+
 ### return
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### routes
 [Mint](https://mint-lang.com)
@@ -532,7 +561,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Go](https://go.dev)
 
 ### self
-[Rust](https://www.rust-lang.org)
+[Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### Self 
 [Rust](https://www.rust-lang.org)
@@ -574,7 +603,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Mint](https://mint-lang.com)
 
 ### super
-[Dart](https://dart.dev) [Rust](https://www.rust-lang.org)
+[Dart](https://dart.dev) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### switch
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev)
@@ -584,6 +613,9 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 
 ### test
 [Mint](https://mint-lang.com)
+
+### then
+[Ruby](https://www.ruby-lang.org)
 
 ### this
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
@@ -595,7 +627,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Rust](https://www.rust-lang.org)
 
 ### true
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Mint](https://mint-lang.com) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### True
 [Python](https://www.python.org)
@@ -618,11 +650,20 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### ulong
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 
+### unit
+[Ruby](https://www.ruby-lang.org)
+
 ### union
 [Rust](https://www.rust-lang.org)
 
 ### unchecked
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
+
+### undef
+[Ruby](https://www.ruby-lang.org)
+
+### unless
+[Ruby](https://www.ruby-lang.org)
 
 ### unmanaged
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -655,13 +696,13 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
 
 ### when
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [Mint](https://mint-lang.com)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org)
 
 ### where
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Rust](https://www.rust-lang.org)
 
 ### while
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### with
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org)
@@ -670,7 +711,15 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Erlang](https://www.erlang.org)
 
 ### yield
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org)
 
+### \_\_ENCODING__
+[Ruby](https://www.ruby-lang.org)
 
+### \_\_FILE__
+[Ruby](https://www.ruby-lang.org)
+
+### \_\_LINE__
+[Ruby](https://www.ruby-lang.org)
+ 
 
