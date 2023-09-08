@@ -32,9 +32,9 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 
 [record](#record) [required](#required) [rethrow](#rethrow) [return](#return) [routes](#routes)
 
-[sealed](#sealed) [set](#set) [show](#show) [state](#state) [static](#static) [store](#store) [style](#style) [super](#super) [switch](#switch) [sync](#sync)
+[sealed](#sealed) [set](#set) [show](#show) [state](#state) [static](#static) [store](#store) [style](#style) [suite](#suite) [super](#super) [switch](#switch) [sync](#sync)
 
-[this](#this) [throw](#throw) [true](#true) [try](#try) [typedef](#typedef)
+[test](#test) [this](#this) [throw](#throw) [true](#true) [try](#try) [typedef](#typedef)
 
 [use](#use) [using](#using)
 
@@ -251,6 +251,9 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### style
 [Mint](https://mint-lang.com)
 
+### suite
+[Mint](https://mint-lang.com)
+
 ### super
 [Dart](https://dart.dev)
 
@@ -259,6 +262,9 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 
 ### sync
 [Dart](https://dart.dev)
+
+### test
+[Mint](https://mint-lang.com)
 
 ### this
 [Dart](https://dart.dev)
