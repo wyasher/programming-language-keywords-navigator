@@ -6,7 +6,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 
 [band](#band) [baremodule](#baremodule) [base](#base) [begin](#begin) [BEGIN](#begin-1) [bind](#bind) [block](#block) [bnot](#bnot) [bool](#bool) [bor](#bor) [break](#break) [bsl](#bsl) [bsr](#bsr) [bxor](#bxor) [by](#by) [byte](#byte)
 
-[callconv](#callconv) [case](#case) [catch](#catch) [chan](#chan) [char](#char) [checked](#checked) [class](#class) [component](#component) [comptime](#comptime) [concept](#concept) [cond](#cond) [connect](#connect) [const](#const) [continue](#continue) [converter](#converter) [crate](#crate) [covariant](#covariant)
+[callconv](#callconv) [case](#case) [catch](#catch) [chan](#chan) [char](#char) [checked](#checked) [class](#class) [component](#component) [comptime](#comptime) [concept](#concept) [cond](#cond) [connect](#connect) [const](#const) [constraint](#constraint) [continue](#continue) [converter](#converter) [crate](#crate) [covariant](#covariant)
 
 [decimal](#decimal) [decode](#decode) [def](#def) [defined?](#defined?) [default](#default) [defer](#defer) [deferred](#deferred) [del](#del) [delegate](#delegate) [descending](#descending) [discard](#discard) [distinct](#distinct) [div](#div) [do](#do) [done](#done) [double](#double) [downcast](#downcast) [downto](#downto) [dyn](#dyn) [dynamic](#dynamic)
 
@@ -77,7 +77,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Zig](https://ziglang.org)
 
 ### and
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Zig](https://ziglang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Nim](https://nim-lang.org) [Python](https://www.python.org) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org) [Zig](https://ziglang.org)
 
 ### andalso
 [Erlang](https://www.erlang.org) 
@@ -92,7 +92,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 
 ### as
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Rust](https://www.rust-lang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Python](https://www.python.org) [ReScript](https://rescript-lang.org) [Rust](https://www.rust-lang.org)
 
 ### as?
 [Crystal](https://crystal-lang.org)
@@ -107,7 +107,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Python](https://www.python.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
 ### assert
-[Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Python](https://www.python.org)
+[Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Python](https://www.python.org) [ReScript](https://rescript-lang.org)
 
 ### await
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Mint](https://mint-lang.com) [Python](https://www.python.org) [Zig](https://ziglang.org)
@@ -199,6 +199,9 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 ### const
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
+### constraint
+[ReScript](https://rescript-lang.org)
+
 ### continue
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
@@ -275,7 +278,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Nim](https://nim-lang.org) [Python](https://www.python.org)
 
 ### else
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Python](https://www.python.org) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
 ### elseif
 [Julia](https://julialang.org)
@@ -311,7 +314,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 
 ### exception
-[F#](https://dotnet.microsoft.com/en-us/languages/fsharp)
+[F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [ReScript](https://rescript-lang.org)
 
 ### expect
 [Nim](https://nim-lang.org) [Python](https://www.python.org)
@@ -338,7 +341,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
 ### external
-[Dart](https://dart.dev)
+[Dart](https://dart.dev) [ReScript](https://rescript-lang.org)
 
 ### factory
 [Dart](https://dart.dev)
@@ -347,7 +350,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Go](https://go.dev)
 
 ### false
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### False
 [Python](https://www.python.org)
@@ -371,7 +374,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
 ### for
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Python](https://www.python.org) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
 ### foreach
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -407,7 +410,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### if
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Python](https://www.python.org) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
 ### impl
 [Rust](https://www.rust-lang.org)
@@ -422,10 +425,10 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [Go](https://go.dev)[Julia](https://julialang.org) [Nim](https://nim-lang.org) [Python](https://www.python.org)
 
 ### in
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Python](https://www.python.org) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### include
-[Crystal](https://crystal-lang.org) [Nim](https://nim-lang.org)
+[Crystal](https://crystal-lang.org) [Nim](https://nim-lang.org) [ReScript](https://rescript-lang.org)
 
 ### inherit
 [F#](https://dotnet.microsoft.com/en-us/languages/fsharp)
@@ -476,10 +479,10 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Dart](https://dart.dev)
 
 ### lazy
-[F#](https://dotnet.microsoft.com/en-us/languages/fsharp)
+[F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [ReScript](https://rescript-lang.org)
 
 ### let
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Mint](https://mint-lang.com) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Rust](https://www.rust-lang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Mint](https://mint-lang.com) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [ReScript](https://rescript-lang.org) [Rust](https://www.rust-lang.org)
 
 ### let!
 [F#](https://dotnet.microsoft.com/en-us/languages/fsharp)
@@ -533,7 +536,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Rust](https://www.rust-lang.org) [Nim](https://nim-lang.org)
 
 ### module
-[Crystal](https://crystal-lang.org) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org)
+[Crystal](https://crystal-lang.org) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org)
 
 ### move
 [Rust](https://www.rust-lang.org)
@@ -542,7 +545,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Rust](https://www.rust-lang.org)
 
 ### mutable
-[F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org)
+[F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [ReScript](https://rescript-lang.org)
 
 ### nameof
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
@@ -599,7 +602,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Nim](https://nim-lang.org)
 
 ### of
-[Crystal](https://crystal-lang.org) [Mint](https://mint-lang.com) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Nim](https://nim-lang.org)
+[Crystal](https://crystal-lang.org) [Mint](https://mint-lang.com) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Nim](https://nim-lang.org) [ReScript](https://rescript-lang.org)
 
 ### on
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
@@ -608,7 +611,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Zig](https://ziglang.org)
 
 ### open
-[F#](https://dotnet.microsoft.com/en-us/languages/fsharp)
+[F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [ReScript](https://rescript-lang.org)
 
 ### operator
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev)
@@ -689,7 +692,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp)
 
 ### rec
-[F#](https://dotnet.microsoft.com/en-us/languages/fsharp)
+[F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [ReScript](https://rescript-lang.org)
 
 ### receive
 [Erlang](https://www.erlang.org)
@@ -806,7 +809,7 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Zig](https://ziglang.org)
 
 ### switch
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [Zig](https://ziglang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Go](https://go.dev) [ReScript](https://rescript-lang.org) [Zig](https://ziglang.org)
 
 ### sync
 [Dart](https://dart.dev)
@@ -833,19 +836,19 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [Rust](https://www.rust-lang.org)
 
 ### true
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Mint](https://mint-lang.com) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org)
 
 ### True
 [Python](https://www.python.org)
 
 ### try
-[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Zig](https://ziglang.org)
+[C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Python](https://www.python.org) [ReScript](https://rescript-lang.org) [Zig](https://ziglang.org)
 
 ### tuple
 [Nim](https://nim-lang.org)
 
 ### type
-[Crystal](https://crystal-lang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Rust](https://www.rust-lang.org)
+[Crystal](https://crystal-lang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Go](https://go.dev) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [ReScript](https://rescript-lang.org) [Rust](https://www.rust-lang.org)
 
 ### typedef
 [Dart](https://dart.dev)
@@ -924,16 +927,16 @@ Programming language keyword navigation. For example, clicking on the 'class' ke
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp)
 
 ### when
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [Ruby](https://www.ruby-lang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [Erlang](https://www.erlang.org) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Mint](https://mint-lang.com) [Nim](https://nim-lang.org) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org)
 
 ### where
 [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Julia](https://julialang.org) [Rust](https://www.rust-lang.org)
 
 ### while
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Python](https://www.python.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Julia](https://julialang.org) [Nim](https://nim-lang.org) [Python](https://www.python.org) [ReScript](https://rescript-lang.org) [Ruby](https://www.ruby-lang.org) [Rust](https://www.rust-lang.org) [Zig](https://ziglang.org)
 
 ### with
-[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Python](https://www.python.org)
+[Crystal](https://crystal-lang.org) [C#](https://dotnet.microsoft.com/en-us/languages/csharp) [Dart](https://dart.dev) [F#](https://dotnet.microsoft.com/en-us/languages/fsharp) [Python](https://www.python.org) [ReScript](https://rescript-lang.org)
 
 ### xor
 [Erlang](https://www.erlang.org) [Nim](https://nim-lang.org)
